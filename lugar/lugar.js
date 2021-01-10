@@ -2,6 +2,8 @@ const colors = require('colors/safe');
 const axios = require('axios');
 const appid = 'aqui va tu apikey';
 
+// tienes que registrarte en openweathermap.org para obtener tu propia apikey
+
 // ejemplos por id o por ciudad
 // http://api.openweathermap.org/data/2.5/weather?q=caracas&appid=aqui va tu apikey
 // http://api.openweathermap.org/data/2.5/forecast?id=3687925&appid=aqui va tu apikey
@@ -45,7 +47,8 @@ const getLugar = (ciudad) => {
     .catch(function(error){
 
         console.log('No hay datos para la ciudad ',colors.inverse(`${ciudad}`));
-
+        
+        console.error(error.response.data);
     });
 
     
