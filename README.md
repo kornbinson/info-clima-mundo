@@ -8,7 +8,7 @@ Recordar ```npm install ``` para las librerias.
 ### ejemplo de uso:
 
 node mundo.js -d "rio de janeiro"
-node mundo -d bogota
+
 
 
 
