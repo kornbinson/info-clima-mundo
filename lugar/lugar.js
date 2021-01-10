@@ -1,10 +1,10 @@
 const colors = require('colors/safe');
 const axios = require('axios');
-const appid = '92e96dee4e91318b40b3beb63624bcd3';
+const appid = 'aqui va tu apikey';
 
 // ejemplos por id o por ciudad
-// http://api.openweathermap.org/data/2.5/weather?q=caracas&appid=92e96dee4e91318b40b3beb63624bcd3
-// http://api.openweathermap.org/data/2.5/forecast?id=3687925&appid=92e96dee4e91318b40b3beb63624bcd3
+// http://api.openweathermap.org/data/2.5/weather?q=caracas&appid=aqui va tu apikey
+// http://api.openweathermap.org/data/2.5/forecast?id=3687925&appid=aqui va tu apikey
 
 
 
